@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1D59FBA6-8117-467B-9891-EC497FEAF5E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructing_Types_and_Apps", "Constructing_Types_and_Apps", "{C28974BC-81B6-484F-8061-26E45D882737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationRecords", "src\Constructing_Types_and_Apps\EnumerationRecords\EnumerationRecords.csproj", "{617C719E-A624-4DA5-B5B7-B4AD07F55C74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B1C17E37-295D-4B0E-9B67-7E3397771AB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Constructing_Types_and_Apps_Tests", "Constructing_Types_and_Apps_Tests", "{25C7A4F7-3590-4256-8245-14BC70D8A8FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationRecordsTests", "src\Tests\Constructing_Types_and_Apps_Tests\EnumerationRecordsTests\EnumerationRecordsTests.csproj", "{9D808147-744A-4FA4-A3A4-56FB033BD239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C28974BC-81B6-484F-8061-26E45D882737} = {1D59FBA6-8117-467B-9891-EC497FEAF5E0}
+		{617C719E-A624-4DA5-B5B7-B4AD07F55C74} = {C28974BC-81B6-484F-8061-26E45D882737}
+		{B1C17E37-295D-4B0E-9B67-7E3397771AB7} = {1D59FBA6-8117-467B-9891-EC497FEAF5E0}
+		{25C7A4F7-3590-4256-8245-14BC70D8A8FE} = {B1C17E37-295D-4B0E-9B67-7E3397771AB7}
+		{9D808147-744A-4FA4-A3A4-56FB033BD239} = {25C7A4F7-3590-4256-8245-14BC70D8A8FE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{617C719E-A624-4DA5-B5B7-B4AD07F55C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{617C719E-A624-4DA5-B5B7-B4AD07F55C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617C719E-A624-4DA5-B5B7-B4AD07F55C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{617C719E-A624-4DA5-B5B7-B4AD07F55C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D808147-744A-4FA4-A3A4-56FB033BD239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D808147-744A-4FA4-A3A4-56FB033BD239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D808147-744A-4FA4-A3A4-56FB033BD239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D808147-744A-4FA4-A3A4-56FB033BD239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
